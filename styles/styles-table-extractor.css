@@ -1,0 +1,368 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+	/*  background-color: rgba(253, 253, 226, 0.39);  */
+		 
+background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #fdffdd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fdffdd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #fdffdd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #fdffdd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #fdffdd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #fdffdd 100%); /* W3C */
+	/*   background-image:url(../images/smith-rocks-monkey-face.jpg); */
+			
+			background-size: 110% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: sans-serif;/*  overflow-y: hidden; */
+
+        }
+
+label{
+    margin-left: 10px;
+}
+
+
+a {
+	color: #005E63;
+}
+h1 {
+	font-size: 340%;
+	font-weight: bold;
+	color: #FD4F22;
+	-webkit-margin-before: 0.20em;
+	-webkit-margin-after: 0.37em;
+	font-family: sans-serif;
+}
+h2 {
+	font-size: 120%;
+	font-weight: bold;
+	color: #818181;
+	margin-bottom: 11px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 5px;
+	color: #005E63;
+}
+h4 {
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #005E63;
+}
+
+span.notes {
+	font-size: 70%;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #474DBD;
+	width: 340px;
+}
+
+textarea:hover {
+	border: solid 1px #005E63;
+}
+
+textarea{
+    width: 70%;
+    height: 200px;
+}
+
+.smallerText{
+    font-size: 60%;
+    color:crimson;
+}
+
+p{
+    color:#005E63;
+    font-size: 80%;
+    font-weight: bold;
+    -webkit-touch-callout: initial;
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
+table p {
+    color:#000;
+    font-size: 100%;
+}
+
+button {
+    color:#900;
+    font-weight:800;
+    padding: 5px 40px 5px 40px;
+    border: 1px solid #900;
+    margin: 10px 10px 10px 10px;
+ 
+    background-color: #fff;
+    margin-right: 3px;
+    cursor:pointer;
+}
+
+button:hover{
+    color: blue;
+    border: blue 1px solid;
+}
+
+.clearFloat{
+    clear: both;
+}
+
+
+#buttonsTab{
+    margin-bottom: 5px;
+}
+
+.modifyButton{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #005E63;
+    background-color: azure;
+    margin-left: 5px;
+    cursor: pointer;
+    background-size: 30px;
+}
+
+
+
+
+table.regular {
+	width : 980px;
+	background-color : #fff;
+	border : 1px solid #aaa;
+	font-family : tahoma, arial, sans-serif;
+	font-size : 92%;
+	border-collapse : collapse;
+	empty-cells : show;
+	margin: 1em 0;
+	
+}
+table.regular caption {
+	text-align : left;
+	padding-bottom : 2px;
+	margin-bottom : 0;
+	color : #660000;
+}
+table.regular p {
+	margin: 0;
+	line-height: 100%;	
+}
+table.regular th, table.regular td {
+	border: 1px solid #aaa;	
+	background-color : #fff;
+	margin: 0;
+}
+table.regular th {
+	padding: 2px 4px 4px 4px;
+}
+table.regular td {
+	padding: 0px 2px 2px 2px;
+}
+table.regular td.footnotes {
+	padding: 4px;
+	text-align : left;
+}
+table.regular td.footnotes p {
+	line-height: 140%;
+}
+table.regular .footnotestitle {
+	font-weight: bold;
+}
+
+table.regular thead th {
+	background: #dddddd;
+	text-align : center;
+	vertical-align : bottom;
+}
+table.regular tbody th {
+	background-color : #eee; /* light stripe header(same as dark stripe) */
+	text-align : left;
+	vertical-align : middle;
+}
+table.regular tbody td {
+	text-align : right;
+	background-color: #fff; /* light stripe */
+}
+table.regular tbody tr.greenbar th {
+	background-color : #DBEAFF; /* dark stripe header */
+}
+table.regular tbody tr.greenbar td {
+	background-color : #EEF4FF; /* dark stripe */
+}
+table.regular td.footnotes {
+	text-align : left;
+}
+table.regular td.endnotes {
+	text-align : left;
+}
+
+.tableTitle {
+	font-size: 112%;
+	font-weight : bold;
+}
+
+p.sub0 {
+
+}
+p.sub1 {
+	padding-left : 1em;
+}
+p.sub2 {
+	padding-left : 2em;
+}
+p.sub3 {
+	padding-left : 3em;
+}
+p.sub4 {
+	padding-left : 4em;
+}
+p.sub5 {
+	padding-left : 5em;
+}
+p.sub6 {
+	padding-left : 6em;
+}
+p.sub7 {
+	padding-left : 7em;
+}
+p.sub8 {
+	padding-left : 8em;
+}
+p.sub9 {
+	padding-left : 9em;
+}
+p.sub10 {
+	padding-left : 10em;
+}
+p.sub11 {
+	padding-left : 11em;
+}
+p.sub12 {
+	padding-left : 12em;
+}
+p.sub13 {
+	padding-left : 13em;
+}
+p.sub14 {
+	padding-left : 14em;
+}
+p.sub15 {
+	padding-left : 15em;
+}
+p.sub16 {
+	padding-left : 16em;
+}
+p.sub17 {
+	padding-left : 17em;
+}
+p.sub18 {
+	padding-left : 18em;
+}
+p.sub19 {
+	padding-left : 19em;
+}
+p.sub20 {
+	padding-left : 20em;
+}
+p.sub21 {
+	padding-left : 21em;
+}
+p.sub22 {
+	padding-left : 22em;
+}
+p.sub23 {
+	padding-left : 23em;
+}
+p.sub24 {
+	padding-left : 24em;
+}
+p.sub25 {
+	padding-left : 25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+label{
+    margin-left: 10px;
+}
+
+textarea{
+    width: 70%;
+    height: 200px;
+}
+
+.smallerText{
+    font-size: 60%;
+    color:crimson;
+}
+
+
+
+button {
+    color:#900;
+    font-weight:800;
+    padding: 5px 40px 5px 40px;
+    border: 1px solid #900;
+    margin: 10px 10px 10px 10px;
+ 
+    background-color: #fff;
+    margin-right: 3px;
+    cursor:pointer;
+}
+
+button:hover{
+    color: blue;
+    border: blue 1px solid;
+}
+
+.deleteColumnButton, .multiplyAreaBy1000Button{
+    position: relative;
+    top: -2px;
+    right: -5px;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 10px;
+    color: brown;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.deleteColumnButton:hover, .multiplyAreaBy1000Button:hover{
+    background-color: yellow;
+    
+}
+
+.placeholderTH{
+    display: none;
+}
